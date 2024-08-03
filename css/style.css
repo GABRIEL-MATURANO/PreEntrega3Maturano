@@ -1,0 +1,176 @@
+/*estilos del header*/ 
+/*RESET*/
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*/
+
+
+body{
+    background-color: #FAF5E8;
+}
+/*estilos de mobile*/
+
+/*
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 15xpx;
+    margin-right: 15px;
+
+}
+
+header a img{
+    width: 100%;
+}*/
+
+
+/*estilos de main*/
+main{
+    margin: 0px 30px; 
+    height: 70vh; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr fr ; 
+    grid-template-rows: repeat(3, 25%); 
+    align-content: center; 
+    row-gap: 30px; 
+}
+
+main .fotoSahumerio2, main .fotoSahumerio5{
+    display: none; 
+}
+
+.LMS{
+    text-align: center;
+}
+
+
+main div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+/*section de los H1*/
+section{
+    background-color: black;
+    text-align: center;
+    border: 2px solid black;
+    color:  white;
+}
+
+/*nombre y precio del producto */
+.imgS, p{
+    text-align: center; 
+    margin-bottom: auto;
+    
+}
+
+/*main de ACERCA DE*/
+.mainCeo{
+    height: max-content;
+}
+
+.fotoCeo{
+    height: 500px;
+}
+
+/* Slider (deslizamiento de imagenes, metodo sacado de internet)*/
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 10s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+/*formulario*/
+
+.formulario{
+    
+    border: 5px groove black;
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+
+/*ubicasao*/
+
+.ubicasao{
+    margin-top: 100px;
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+
+/*acceso a wsp*/
+picture a img{
+    position: fixed;
+    width: 30px;
+    bottom: 20px;
+    right: 20px;
+}
+
+/*footer*/
+
+footer{
+    margin-top: 50px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+footer div{
+    color: black;
+}
+
+.colorFooter {
+    background-color: #F8F9FA;
+    
+}
+
+.btn-azul:hover {
+  background-color: white;
+  color: #8011f2;
+  border: 2px solid #8011f2;
+}
+
+footer .bi-icon:hover {
+  color: #8011f2;
+}
+
