@@ -174,3 +174,89 @@ footer .bi-icon:hover {
   color: #8011f2;
 }
 
+/*media square de tablet*/
+@media screen and (min-width: 768px){
+    
+    
+    body{
+        font-size: 1.5rem; 
+    }
+    main{
+        justify-items:  center;
+        height: auto;
+        width: auto;
+        
+    }
+    main .fotoSahumerio4{
+        grid-column: span 2; 
+        
+    }
+    main .mainCeo{
+        height: max-content;
+       
+    }
+
+    main .fotoCeo{
+        height: 300%;
+        
+    }
+
+    .ubicasao{
+        margin-top: 100px;
+        height: 300%;
+        width: 100%;
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+    }
+
+   /*aca intente poner las otras 2 fotos que estan ocultas, me canse de renegar para que funcione, son fotoSahumerio5 y fotoSahumerio2, si puede ser que me den la solucion porfis, se agradecederia*/
+}
+
+/*estilos de desktop mq desktop*/
+
+@media screen and (min-width: 1024px){
+
+    header{
+        height: 10%;
+    }
+
+    .ubicasao{
+        margin-top: 50px;
+        margin-left: 500px;
+        margin-bottom: auto;
+        margin-right: auto;
+        
+    }
+
+    main .fotoCeo{
+        height: 150%;
+        
+    }
+
+    main .slider{
+        margin-left: 100%;
+        margin-right: auto;
+    }
+
+    main .fotoSahumerio2, main .fotoSahumerio5{
+        display: block; 
+    }
+    main{
+        grid-template-columns:repeat(3, 1fr) ;
+        grid-template-rows: 30% 30% 30% ;
+    }
+
+    main .fotoSahumerio1, main .fotoSahumerio3{
+        grid-row: span 2;
+    }
+
+    main .fotoSahumerio2, main .fotoSahumerio4{
+        grid-column: span 1;
+    }
+
+    main .fotoSahumerio5{
+        grid-column: span 3;
+    }
+}
+
