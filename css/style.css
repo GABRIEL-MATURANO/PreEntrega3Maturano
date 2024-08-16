@@ -1,0 +1,290 @@
+/*estilos del header*/ 
+/*RESET*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: #FAF5E8;
+}
+
+
+/*estilos de mobile*/
+
+
+
+/*estilos de main
+main{
+    margin: 0px 30px; 
+     
+    display: grid; 
+    grid-template-columns: 1fr 1fr fr ; 
+    grid-template-rows: repeat(3, 25%); 
+    align-content: center; 
+    row-gap: 30px; 
+}
+*/
+main .fotoSahumerio2, main .fotoSahumerio5{
+    display: none; 
+}
+
+.LMS{
+    text-align: center;
+    background-color: black;
+    border: 2px solid black;
+    color:  white;
+}
+
+
+main div ul li img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+/*estilizamos con grid las imagenes, colocamos 3 columnas y definimos el espacio del contenedor (.grid)*/
+.grid{
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    gap: 15px;
+    
+}
+/*posicionamiento de las imagenes como una grilla de excel*/
+main .pic1, main .pic2, main .pic3, main .pic5,main .pic4,main .pic6{
+    grid-column: span 1;
+}
+/*TAMAÑO DE LAS IMAGENES */
+main div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*bordes*/
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6{
+    border-top: 1px solid #7C7C7C;
+    border-left: 1px solid #7C7C7C;
+    border-right: 1px solid #7C7C7C;
+    
+    border-radius: 10px;
+}
+
+
+
+/*section de los H1*/
+section{
+    background-color: black;
+    text-align: center;
+    border: 2px solid black;
+    color:  white;
+}
+
+/*nombre y precio del producto */
+.imgS, p{
+    text-align: center; 
+    margin-bottom: auto;
+    
+}
+
+/*main de ACERCA DE*/
+.mainCeo{
+    height: max-content;
+}
+
+.fotoCeo{
+    height: 500px;
+}
+
+/* Slider (deslizamiento de imagenes, metodo sacado de internet)*/
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 10s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+/*formulario*/
+
+.formulario{
+    
+    border: 5px groove black;
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+
+/*ubicasao*/
+
+.ubicasao{
+    margin-top: 100px;
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+
+/*acceso a wsp*/
+picture a img{
+    position: fixed;
+    width: 10%;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 15px;
+}
+
+/*footer*/
+
+footer{
+    margin-top: 50px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+footer div{
+    color: black;
+}
+
+.colorFooter {
+    background-color: #F8F9FA;
+    
+}
+
+.btn-azul:hover {
+  background-color: white;
+  color: #8011f2;
+  border: 2px solid #8011f2;
+}
+
+footer .bi-icon:hover {
+  color: #8011f2;
+}
+
+/*media square de tablet*/
+@media screen and (min-width: 768px){
+    
+    
+    body{
+        font-size: 1.5rem; 
+    }
+    main{
+        justify-items:  center;
+        height: auto;
+        width: auto;
+        
+    }
+    main .fotoSahumerio4{
+        grid-column: span 2; 
+        
+    }
+    main .mainCeo{
+        height: max-content;
+       
+    }
+
+    main .fotoCeo{
+        height: 300%;
+        
+    }
+
+    .ubicasao{
+        margin-top: 100px;
+        height: 300%;
+        width: 100%;
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+    }
+
+   /*aca intente poner las otras 2 fotos que estan ocultas, me canse de renegar para que funcione, son fotoSahumerio5 y fotoSahumerio2, si puede ser que me den la solucion porfis, se agradecederia*/
+}
+
+/*estilos de desktop mq desktop*/
+
+@media screen and (min-width: 1024px){
+
+    header{
+        height: 10%;
+    }
+
+    .ubicasao{
+        margin-top: 50px;
+        margin-left: 500px;
+        margin-bottom: auto;
+        margin-right: auto;
+        
+    }
+
+    main .fotoCeo{
+        height: 150%;
+        
+    }
+
+    main .slider{
+        margin-left: 100%;
+        margin-right: auto;
+    }
+
+    main .fotoSahumerio2, main .fotoSahumerio5{
+        display: block; 
+    }
+    main{
+        grid-template-columns:repeat(3, 1fr) ;
+        grid-template-rows: 30% 30% 30% ;
+    }
+
+    main .fotoSahumerio1, main .fotoSahumerio3{
+        grid-row: span 2;
+    }
+
+    main .fotoSahumerio2, main .fotoSahumerio4{
+        grid-column: span 1;
+    }
+
+    main .fotoSahumerio5{
+        grid-column: span 3;
+    }
+}
+
