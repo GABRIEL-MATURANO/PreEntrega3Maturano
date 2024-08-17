@@ -71,25 +71,22 @@
                     }
             }
         
-        .gridMS{
-            margin-top: 50px;
+        
+    } // fin de main 
+        
+               .gridMS{
+                margin-top: 50px;
                 grid-template-columns: repeat(3, 25%);
                 grid-template-rows: repeat(3, 1fr);
                 gap: 50px;
-            
-            .fotoSahumerio1, .fotoSahumerio2, .fotoSahumerio3, .fotoSahumerio4, .fotoSahumerio5, .fotoSahumerio6{
-                width: 50%;
-                grid-column: span 1;
-                        
+                 .fotoSahumerio1,.fotoSahumerio2,.fotoSahumerio3,.fotoSahumerio4,.fotoSahumerio5,.fotoSahumerio6{
+                    width: 50%;
+                 } 
             }
-        } 
-     
-       
-    
-     
-    }
 
-   
+            
+            
+        
 
         
 

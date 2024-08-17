@@ -1,20 +1,26 @@
 
 //estilos de la pag sahumerios 
-main.MS{
-    
-        background-image: linear-gradient(#F29F0B,violet, #FAF5E8, red);
-    
-    
-    p{
-        text-align: center;
-    }
+main .MS{
+    .degrade2{
 
-    div{
-        #imgSec1,#imgSec2,#imgSec3,#imgSec4,#imgSec5,#imgSec6{
+        background-image: linear-gradient(#F29F0B,violet, #FAF5E8, red);
+            p{
+                text-align: center;
+                    div{
+                        #imgSec1,#imgSec2,#imgSec3,#imgSec4,#imgSec5,#imgSec6{
             
-            border-radius: 15px ;
+                        border-radius: 15px ;
+                        }
+                    }
+            }
         }
-    }
+    
+        
+    
+    
+    
+
+    
     .fotoSahumerio1,.fotoSahumerio2,.fotoSahumerio3,.fotoSahumerio4,.fotoSahumerio5,.fotoSahumerio6{
         border-top: 1px solid #7C7C7C;
         border-left: 1px solid #7C7C7C;
