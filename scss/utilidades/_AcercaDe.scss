@@ -1,0 +1,23 @@
+main{
+    margin-top: 40px;
+    div{
+        text-align: center;
+        p{
+            margin-top: 20px;
+        }
+        .fotoCeo{
+            width: 300px;
+            height: 100%;
+
+            box-shadow: 20px 20px 20px black;
+            transition: 3s;
+            animation: animacion 1s ease-in 5s infinite;
+        }
+        .fotoCeo:hover{
+            transform: scale(1.0);
+            border-radius: 100%;
+            background-size: cover;
+        }
+    }
+    
+}
