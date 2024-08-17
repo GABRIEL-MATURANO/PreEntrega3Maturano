@@ -1,0 +1,107 @@
+/*estilos de tablet mq tablet*/
+
+@media screen and (min-width: 768px){
+    body{
+        font-size: 30px;
+    }
+
+    .mainCeo{
+        margin-top: 20px;
+    }
+    .formulario{
+        form{
+            height: 500px;
+            fieldset{
+                padding: 20px;
+                legend{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    
+    main{
+        .iframe{
+            
+                margin-top: 30px;
+            
+        }
+    }
+}
+
+@media screen and (min-width: 1024px){
+    body{
+        font-size: 20px;
+    }
+    
+    main{
+        
+        .slider{
+            
+            width: 25%;
+            ul{
+                width: 25%;
+                margin: 0px;
+                li{
+                    width: 25%;
+                    height: 25%;
+                    img{
+                        width: 50%;
+                        height: 100%;
+                        
+                    }
+                    .img-tres{
+                        height: 600px;
+                    }
+                }
+            }
+        }
+        
+        .grid{
+                margin-top: 50px;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(3, 25%);
+                gap: 200px;
+                
+                    .pic1, .pic2, .pic3, .pic4, .pic5, .pic6{
+                        margin-top: auto;
+                        width: 100%;
+                        grid-column: span 1;
+                        
+                    }
+            }
+        
+        .gridMS{
+            margin-top: 50px;
+                grid-template-columns: repeat(3, 25%);
+                grid-template-rows: repeat(3, 1fr);
+                gap: 50px;
+            
+            .fotoSahumerio1, .fotoSahumerio2, .fotoSahumerio3, .fotoSahumerio4, .fotoSahumerio5, .fotoSahumerio6{
+                width: 50%;
+                grid-column: span 1;
+                        
+            }
+        } 
+     
+       
+    
+     
+    }
+
+   
+
+        
+
+        #wts{
+        width: 5%;
+    }   
+}
+        
+
+
+
+
+ 
+    
+

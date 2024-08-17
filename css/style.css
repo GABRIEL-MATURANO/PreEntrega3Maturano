@@ -7,7 +7,17 @@ main.MS {
 main.MS p {
   text-align: center;
 }
-main.MS .grid2 {
+main.MS div #imgSec1, main.MS div #imgSec2, main.MS div #imgSec3, main.MS div #imgSec4, main.MS div #imgSec5, main.MS div #imgSec6 {
+  border-radius: 15px;
+}
+main.MS .fotoSahumerio1, main.MS .fotoSahumerio2, main.MS .fotoSahumerio3, main.MS .fotoSahumerio4, main.MS .fotoSahumerio5, main.MS .fotoSahumerio6 {
+  border-top: 1px solid #7C7C7C;
+  border-left: 1px solid #7C7C7C;
+  border-right: 1px solid #7C7C7C;
+  border-bottom: 1px solid #7C7C7C;
+  border-radius: 15px;
+}
+main.MS .gridMS {
   margin-left: 5px;
   margin-right: 20px;
   margin-top: 20px;
@@ -24,7 +34,7 @@ main.MS .video {
 }
 main.MS .video .video1 {
   width: 50%;
-  height: 15%;
+  height: 20%;
 }
 main.MS h2 {
   text-align: center;
@@ -38,7 +48,7 @@ main div {
   text-align: center;
 }
 main div p {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 main div .fotoCeo {
   width: 300px;
@@ -53,6 +63,105 @@ main div .fotoCeo:hover {
   background-size: cover;
 }
 
+main form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 400px;
+}
+main form fieldset {
+  background-image: linear-gradient(#D1AF8B, #515150);
+  border-radius: 15px;
+  box-shadow: 20px 20px 20px;
+}
+main form fieldset div {
+  padding: 5px;
+  border-radius: 15px;
+}
+
+main div .iframe {
+  display: flex;
+  justify-content: center;
+}
+main div .pU {
+  background-color: #C2C4C3;
+  border-radius: 10px;
+}
+main div iframe {
+  width: 70%;
+  height: 70%;
+  box-shadow: 20px 20px 20px;
+}
+
+/*estilos de tablet mq tablet*/
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 30px;
+  }
+  .mainCeo {
+    margin-top: 20px;
+  }
+  .formulario form {
+    height: 500px;
+  }
+  .formulario form fieldset {
+    padding: 20px;
+  }
+  .formulario form fieldset legend {
+    font-size: 30px;
+  }
+  main .iframe {
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+  main .slider {
+    width: 25%;
+  }
+  main .slider ul {
+    width: 25%;
+    margin: 0px;
+  }
+  main .slider ul li {
+    width: 25%;
+    height: 25%;
+  }
+  main .slider ul li img {
+    width: 50%;
+    height: 100%;
+  }
+  main .slider ul li .img-tres {
+    height: 600px;
+  }
+  main .grid {
+    margin-top: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 25%);
+    gap: 200px;
+  }
+  main .grid .pic1, main .grid .pic2, main .grid .pic3, main .grid .pic4, main .grid .pic5, main .grid .pic6 {
+    margin-top: auto;
+    width: 100%;
+    grid-column: span 1;
+  }
+  main .gridMS {
+    margin-top: 50px;
+    grid-template-columns: repeat(3, 25%);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 50px;
+  }
+  main .gridMS .fotoSahumerio1, main .gridMS .fotoSahumerio2, main .gridMS .fotoSahumerio3, main .gridMS .fotoSahumerio4, main .gridMS .fotoSahumerio5, main .gridMS .fotoSahumerio6 {
+    width: 50%;
+    grid-column: span 1;
+  }
+  #wts {
+    width: 5%;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -70,6 +179,23 @@ body {
   color: black;
 }
 
+main {
+  margin-top: 0px;
+}
+main .text1 {
+  background-color: #020202;
+  border-top: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+}
+main .text2 {
+  background-color: #020202;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
 main div img {
   width: 100%;
   height: 100%;
@@ -135,11 +261,16 @@ main .slider img {
   border-top: 1px solid #7C7C7C;
   border-left: 1px solid #7C7C7C;
   border-right: 1px solid #7C7C7C;
-  border-radius: 10px;
+  border-bottom: 1px solid #7C7C7C;
+  border-radius: 15px;
+}
+
+div #img1, div #img2, div #img3, div #img4, div #img5, div #img6 {
+  border-radius: 15px;
 }
 
 .degrade {
-  margin-top: -10px;
+  margin-top: 10px;
   background-image: linear-gradient(#9D7B54, #FAF5E8);
 }
 .degrade p {

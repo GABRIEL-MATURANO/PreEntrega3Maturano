@@ -1,0 +1,22 @@
+main{
+    form{
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            height: 400px;
+            
+        fieldset{
+                
+                background-image: linear-gradient(#D1AF8B, #515150); 
+                border-radius: 15px;
+                box-shadow: 20px 20px 20px ;
+                 div{
+                    
+                    padding: 5px;
+                    border-radius: 15px;
+                }
+            
+        }
+    }
+}

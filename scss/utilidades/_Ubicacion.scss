@@ -1,0 +1,19 @@
+main{
+    div{
+        .iframe{
+         display: flex;
+        justify-content: center;   
+        }
+        
+        .pU{
+            background-color: #C2C4C3;
+            border-radius: 10px;
+        }
+        
+        iframe{
+            width: 70%;
+            height: 70%;
+            box-shadow: 20px 20px 20px ;
+        }  
+    }
+}
