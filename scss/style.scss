@@ -16,8 +16,23 @@
 }
 
 body{
-    background-color: #FAF5E8;
+    background-color: #FFF9EC;
 }
+
+    .navbar-nav{
+        .nav-link{
+            color: #7C7C7C;
+            
+            .dropdown:active{
+            background-color: #020202;
+        }
+
+            &:hover{
+                color: #d2ab20;
+            }
+        }
+        
+    }
 
 /*estilos de mobile*/
 .LMS{
@@ -114,7 +129,7 @@ main{
 
     .degrade{
         margin-top: 10px;
-        background-image: linear-gradient(#9D7B54, #FAF5E8 );
+        background-image: linear-gradient(#9D7B54, #FFF9EC );
         p{
             text-align: center;
         }
@@ -155,7 +170,7 @@ footer{
         color: black;
     }
     .colorFooter{
-        background-color: F8F9FA;
+        background-color: #FFF9EC;
     }
     .btn-azul:hover{
         background-color: white;

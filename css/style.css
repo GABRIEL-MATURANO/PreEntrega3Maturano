@@ -1,23 +1,23 @@
 /*estilos index*/
 /*estilos de header*/
 /*RESET*/
-main.MS {
-  background-image: linear-gradient(#F29F0B, violet, #FAF5E8, red);
+.MS .degrade2 {
+  background-image: linear-gradient(#D1AF8B, #515150);
 }
-main.MS p {
+.MS .degrade2 p {
   text-align: center;
 }
-main.MS div #imgSec1, main.MS div #imgSec2, main.MS div #imgSec3, main.MS div #imgSec4, main.MS div #imgSec5, main.MS div #imgSec6 {
+.MS .degrade2 p div #imgSec1, .MS .degrade2 p div #imgSec2, .MS .degrade2 p div #imgSec3, .MS .degrade2 p div #imgSec4, .MS .degrade2 p div #imgSec5, .MS .degrade2 p div #imgSec6 {
   border-radius: 15px;
 }
-main.MS .fotoSahumerio1, main.MS .fotoSahumerio2, main.MS .fotoSahumerio3, main.MS .fotoSahumerio4, main.MS .fotoSahumerio5, main.MS .fotoSahumerio6 {
+.MS .fotoSahumerio1, .MS .fotoSahumerio2, .MS .fotoSahumerio3, .MS .fotoSahumerio4, .MS .fotoSahumerio5, .MS .fotoSahumerio6 {
   border-top: 1px solid #7C7C7C;
   border-left: 1px solid #7C7C7C;
   border-right: 1px solid #7C7C7C;
   border-bottom: 1px solid #7C7C7C;
   border-radius: 15px;
 }
-main.MS .gridMS {
+.MS .gridMS {
   margin-left: 5px;
   margin-right: 20px;
   margin-top: 20px;
@@ -27,16 +27,16 @@ main.MS .gridMS {
   align-items: center;
   gap: 15px;
 }
-main.MS .video {
+.MS .video {
   display: flex;
   justify-content: center;
   margin-top: 40px;
 }
-main.MS .video .video1 {
+.MS .video .video1 {
   width: 50%;
   height: 20%;
 }
-main.MS h2 {
+.MS h2 {
   text-align: center;
   color: #FAF5E8;
 }
@@ -148,15 +148,14 @@ main div iframe {
     width: 100%;
     grid-column: span 1;
   }
-  main .gridMS {
+  .gridMS {
     margin-top: 50px;
     grid-template-columns: repeat(3, 25%);
     grid-template-rows: repeat(3, 1fr);
     gap: 50px;
   }
-  main .gridMS .fotoSahumerio1, main .gridMS .fotoSahumerio2, main .gridMS .fotoSahumerio3, main .gridMS .fotoSahumerio4, main .gridMS .fotoSahumerio5, main .gridMS .fotoSahumerio6 {
+  .gridMS .fotoSahumerio1, .gridMS .fotoSahumerio2, .gridMS .fotoSahumerio3, .gridMS .fotoSahumerio4, .gridMS .fotoSahumerio5, .gridMS .fotoSahumerio6 {
     width: 50%;
-    grid-column: span 1;
   }
   #wts {
     width: 5%;
@@ -169,7 +168,17 @@ main div iframe {
 }
 
 body {
-  background-color: #FAF5E8;
+  background-color: #FFF9EC;
+}
+
+.navbar-nav .nav-link {
+  color: #7C7C7C;
+}
+.navbar-nav .nav-link .dropdown:active {
+  background-color: #020202;
+}
+.navbar-nav .nav-link:hover {
+  color: #d2ab20;
 }
 
 /*estilos de mobile*/
@@ -271,7 +280,7 @@ div #img1, div #img2, div #img3, div #img4, div #img5, div #img6 {
 
 .degrade {
   margin-top: 10px;
-  background-image: linear-gradient(#9D7B54, #FAF5E8);
+  background-image: linear-gradient(#9D7B54, #FFF9EC);
 }
 .degrade p {
   text-align: center;
@@ -304,7 +313,7 @@ footer div {
   color: black;
 }
 footer .colorFooter {
-  background-color: F8F9FA;
+  background-color: #FFF9EC;
 }
 footer .btn-azul:hover {
   background-color: white;
