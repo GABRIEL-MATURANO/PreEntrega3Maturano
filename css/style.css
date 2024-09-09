@@ -2,7 +2,7 @@
 /*estilos de header*/
 /*RESET*/
 .MS .degrade2 {
-  background-image: linear-gradient(#D1AF8B, #515150);
+  background-image: linear-gradient(#D1AF8B, #a67b47);
 }
 .MS .degrade2 p {
   text-align: center;
@@ -22,8 +22,8 @@
   margin-right: 20px;
   margin-top: 20px;
   display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-columns: 50% 50%;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   gap: 15px;
 }
@@ -143,19 +143,26 @@ main div iframe {
     grid-template-rows: repeat(3, 25%);
     gap: 200px;
   }
-  main .grid .pic1, main .grid .pic2, main .grid .pic3, main .grid .pic4, main .grid .pic5, main .grid .pic6 {
+  main .grid .pic1, main .grid .pic2, main .grid .pic3, main .grid .pic8, main .grid .pic5, main .grid .pic7 {
     margin-top: auto;
     width: 100%;
     grid-column: span 1;
+    display: block;
   }
-  .gridMS {
-    margin-top: 50px;
-    grid-template-columns: repeat(3, 25%);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 50px;
+  main .grid #img7, main .grid #img8 {
+    display: block;
   }
-  .gridMS .fotoSahumerio1, .gridMS .fotoSahumerio2, .gridMS .fotoSahumerio3, .gridMS .fotoSahumerio4, .gridMS .fotoSahumerio5, .gridMS .fotoSahumerio6 {
-    width: 50%;
+  main .grid .pic4, main .grid .pic6 {
+    display: none;
+  }
+  main .grid #img4, main .grid #img6 {
+    display: none;
+  }
+  main .grid #img1, main .grid #img2, main .grid #img3, main .grid #img5, main .grid #img7, main .grid #img8 {
+    border-radius: 15px;
+  }
+  #imgSec1, #imgSec2, #imgSec3, #imgSec4, #imgSec5, #imgSec6 {
+    border-radius: 15px;
   }
   #wts {
     width: 5%;
@@ -266,7 +273,7 @@ main .slider img {
   gap: 15px;
 }
 
-.pic1, .pic2, .pic3, .pic4, .pic5, .pic6 {
+.pic1, .pic2, .pic3, .pic5, .pic4, .pic6, .pic7, .pic8 {
   border-top: 1px solid #7C7C7C;
   border-left: 1px solid #7C7C7C;
   border-right: 1px solid #7C7C7C;
@@ -274,7 +281,15 @@ main .slider img {
   border-radius: 15px;
 }
 
-div #img1, div #img2, div #img3, div #img4, div #img5, div #img6 {
+.pic8, .pic7 {
+  display: none;
+}
+
+#img7, #img8 {
+  display: none;
+}
+
+div #img1, div #img2, div #img3, div #img5, div #img6, div #img4 {
   border-radius: 15px;
 }
 

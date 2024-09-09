@@ -3,7 +3,7 @@
 .MS{
     .degrade2{
 
-        background-image:  linear-gradient(#D1AF8B, #515150);
+        background-image:  linear-gradient(#D1AF8B, #a67b47);
             p{
                 text-align: center;
                     div{
@@ -14,12 +14,6 @@
                     }
             }
         }
-    
-        
-    
-    
-    
-
     
     .fotoSahumerio1,.fotoSahumerio2,.fotoSahumerio3,.fotoSahumerio4,.fotoSahumerio5,.fotoSahumerio6{
         border-top: 1px solid #7C7C7C;
@@ -34,8 +28,8 @@
         margin-right: 20px;
         margin-top: 20px;
         display: grid;
-        grid-template-rows: repeat(3, 1fr);
-        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
         gap: 15px;
        

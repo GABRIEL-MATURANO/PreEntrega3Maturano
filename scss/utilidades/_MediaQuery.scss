@@ -63,33 +63,34 @@
                 grid-template-rows: repeat(3, 25%);
                 gap: 200px;
                 
-                    .pic1, .pic2, .pic3, .pic4, .pic5, .pic6{
+                    .pic1, .pic2, .pic3, .pic8, .pic5, .pic7{
                         margin-top: auto;
                         width: 100%;
                         grid-column: span 1;
-                        
+                        display: block;
                     }
+                    #img7, #img8{
+                        display: block;
+                    }
+                    .pic4,.pic6{
+                        display: none;
+                    }
+                    #img4, #img6{
+                        display: none;
+                    }
+                    
+                        #img1, #img2, #img3, #img5, #img7, #img8{
+                            border-radius: 15px;
+                        }
+                    
             }
         
         
-    } // fin de main 
-        
-               .gridMS{
-                margin-top: 50px;
-                grid-template-columns: repeat(3, 25%);
-                grid-template-rows: repeat(3, 1fr);
-                gap: 50px;
-                 .fotoSahumerio1,.fotoSahumerio2,.fotoSahumerio3,.fotoSahumerio4,.fotoSahumerio5,.fotoSahumerio6{
-                    width: 50%;
-                 } 
-            }
-
-            
-            
-        
-
-        
-
+    } 
+        #imgSec1,#imgSec2,#imgSec3,#imgSec4,#imgSec5,#imgSec6{
+            border-radius: 15px;
+        }
+              
         #wts{
         width: 5%;
     }   

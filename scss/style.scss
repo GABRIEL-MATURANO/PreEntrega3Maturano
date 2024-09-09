@@ -19,6 +19,7 @@ body{
     background-color: #FFF9EC;
 }
 
+
     .navbar-nav{
         .nav-link{
             color: #7C7C7C;
@@ -114,15 +115,22 @@ main{
         gap: 15px;
     }
 
-    .pic1, .pic2, .pic3, .pic4, .pic5, .pic6{
+    .pic1, .pic2, .pic3, .pic5, .pic4, .pic6, .pic7, .pic8 {
         border-top: 1px solid #7C7C7C;
         border-left: 1px solid #7C7C7C;
         border-right: 1px solid #7C7C7C;
         border-bottom: 1px solid #7C7C7C ;
         border-radius: 15px ;
     }
+    .pic8,.pic7{
+        display: none;
+    }
+    #img7, #img8{
+        display: none;
+    }
+    
     div{
-        #img1, #img2, #img3, #img4, #img5, #img6{
+        #img1, #img2, #img3, #img5, #img6, #img4{
             border-radius: 15px;
         }
     }
