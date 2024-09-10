@@ -22,10 +22,10 @@
   margin-right: 20px;
   margin-top: 20px;
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   gap: 15px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .MS .video {
   display: flex;
@@ -267,10 +267,10 @@ main .slider img {
   margin-right: 20px;
   margin-top: 20px;
   display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-columns: 50% 50%;
   align-items: center;
   gap: 15px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 50% 50%;
 }
 
 .pic1, .pic2, .pic3, .pic5, .pic4, .pic6, .pic7, .pic8 {

@@ -80,7 +80,7 @@
                     }
                     
                         #img1, #img2, #img3, #img5, #img7, #img8{
-                            border-radius: 15px;
+                            @include bordesin;
                         }
                     
             }
@@ -88,7 +88,7 @@
         
     } 
         #imgSec1,#imgSec2,#imgSec3,#imgSec4,#imgSec5,#imgSec6{
-            border-radius: 15px;
+            @include bordesin;
         }
               
         #wts{

@@ -3,12 +3,13 @@
 /*RESET*/
 
 //import
-
+@import "utilidades/Mixin";
 @import "./utilidades/Sahumerios";
 @import "./utilidades/AcercaDe";
 @import "./utilidades/Contacto";
 @import "./utilidades/Ubicacion";
 @import "./utilidades/MediaQuery";
+
 *{
     margin: 0;
     padding: 0;
@@ -48,14 +49,12 @@ main{
         background-color: #020202;
         border-top: 1px solid #FFFFFF;
         color: #FFFFFF ;
-        display: flex;
-        justify-content: center;
+        @include flex;
     }
     .text2{
         background-color: #020202;
         color: #FFFFFF ;
-        display: flex;
-        justify-content: center;
+        @include flex;
         margin-top: 0px;
     }
     div{
@@ -105,22 +104,14 @@ main{
 
 //estilizamos con grid las imagenes, colocamos 3 columnas y definimos el espacio del contenedor (.grid)
     .grid{
-        margin-left: 5px;
-        margin-right: 20px;
-        margin-top: 20px;
-        display: grid;
+        @include grid;
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: 50% 50%;
-        align-items: center;
-        gap: 15px;
+        
     }
 
     .pic1, .pic2, .pic3, .pic5, .pic4, .pic6, .pic7, .pic8 {
-        border-top: 1px solid #7C7C7C;
-        border-left: 1px solid #7C7C7C;
-        border-right: 1px solid #7C7C7C;
-        border-bottom: 1px solid #7C7C7C ;
-        border-radius: 15px ;
+        @include bordes;
     }
     .pic8,.pic7{
         display: none;
@@ -131,7 +122,7 @@ main{
     
     div{
         #img1, #img2, #img3, #img5, #img6, #img4{
-            border-radius: 15px;
+            @include bordesin;
         }
     }
 
@@ -165,7 +156,7 @@ picture{
             width: 10%;
             bottom: 20px;
             right: 20px;
-            border-radius: 15px;
+            @include bordesin;
         }
     }
 }
